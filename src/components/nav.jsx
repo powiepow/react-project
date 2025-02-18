@@ -6,7 +6,7 @@ const Nav = () => {
     <>
       <nav className='nav'>
         <div id='nav-img'>
-            <img src="../assets/initial whiye.webp" alt="" />
+            <img src="../assets/initial white.webp" alt="" />
         </div>
 
         <ul>
