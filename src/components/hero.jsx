@@ -1,5 +1,5 @@
 import React from 'react';
-import "../assets/profile.png"
+import Profile from"../assets/profile.png"
 
 const Hero = () => {
   return (
@@ -17,7 +17,7 @@ const Hero = () => {
 
       <div className='r-con'>
         <div className='profile'>
-          <img src="../assets/profile.png" alt="" />
+          <img src={Profile} alt="" />
         </div>
       </div>
 
