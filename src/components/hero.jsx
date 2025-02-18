@@ -1,4 +1,5 @@
 import React from 'react';
+import "../assets/profile.png"
 
 const Hero = () => {
   return (
