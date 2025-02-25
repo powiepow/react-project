@@ -1,28 +1,26 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Initial from"../assets/initial white.webp"
+import Initial from"../assets/initial-white.png"
 
 const Nav = () => {
   return (
-    <>
       <nav className='nav'>
-        <div id='nav-img'>
+        <div className='nav-img'>
             <img src={Initial} alt="" />
         </div>
 
         <ul>
-          <li><Link to={"/"}>Home</Link></li>
-          <li><Link to={"/about"}>About</Link></li>
-          <li><Link to={"/skill"}>Skill</Link></li>
-          <li><Link to={"/work"}>Work</Link></li>
+          <li><a href="#">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#">Skill</a></li>
+          <li><a href="#">Work</a></li>
         </ul>
 
         <div className='resume'>
-          <button>My resume</button>
+          <button>Download resume</button>
         </div>
 
       </nav>
-    </>
   );
 };
 
