@@ -1,8 +1,8 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "./style/style.css";
+import "./style/responsive-style.css";
 import Nav from "./components/nav";
 import Hero from "./components/hero";
-import About from "./components/about";
 import "../src/App";
 
 function App() {
