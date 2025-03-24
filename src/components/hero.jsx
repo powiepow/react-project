@@ -61,7 +61,7 @@ const Hero = () => {
     </section>
 
     {/* skill */}
-    {/* <section id='skill'>
+    <section id='skill'>
       <div className='txt-title'>
         <h1>MY <span>SKILLS</span></h1>
       </div>
@@ -145,10 +145,10 @@ const Hero = () => {
           </div>
         </div>
       </div>
-    </section> */}
+    </section>
 
     {/* work */}
-    {/* <section id='work'>
+    <section id='work'>
       <div className='work-container'>
 
         <div className='work-header'>
@@ -200,10 +200,10 @@ const Hero = () => {
         </div>
 
       </div>
-    </section> */}
+    </section>
 
     {/* contact */}
-    {/* <section id='contact'>
+    <section id='contact'>
       <div className='contact-container'>
 
         <div className='con-left'>
@@ -248,7 +248,7 @@ const Hero = () => {
         </div>  
 
       </div>
-    </section> */}
+    </section>
     </>
   );
 };
