@@ -195,10 +195,17 @@
 }
 
 .skill-con {
-  width: 45%; 
-  height: 9rem;
+  width: 40%; 
+  height: auto;
+  padding: 1rem 0 1rem 0;
+  gap: 1rem;
 }
-
+.skill-con h2{
+  margin: 0;
+}
+.skill-img{
+  height: auto;
+}
 .skill-img i {
   font-size: 3rem; 
 }
@@ -227,7 +234,8 @@
 
 .work-1{
   width: 90%;
-  padding: 0.5rem;
+  height: auto;
+  padding: 1rem 0.5rem 1rem 0.5rem;
   
 }
 .work-img{
@@ -236,10 +244,6 @@
 .work-txt{
   font-size: 0.8rem;
   height: 6rem;
-  
-}
-.work-txt .title{
-  margin-top: 0.5rem;
 }
 
 /* contact */
@@ -250,7 +254,7 @@
 
 .con-right{
   width: 100%;
-  gap: 3rem;
+  gap: 1rem;
   margin-top: 2rem;
 }
 .con-title{
